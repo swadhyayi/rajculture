@@ -6,7 +6,23 @@
 <title>Touché</title>
 <meta name="description" content="">
 <meta name="author" content="">
-
+<style>
+    .card {
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+        transition: 0.3s;
+        border-radius: 5px;
+        padding: 4px;
+        margin-top: 14px;
+        margin-bottom: 14px;
+    }
+    
+    
+    img {
+        border-radius: 5px 5px 0 0;
+    }
+    
+    
+    </style>
 <!-- Favicons
     ================================================== -->
 <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
@@ -37,167 +53,58 @@
 <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
 <!-- Navigation
     ==========================================-->
-<nav id="menu" class="navbar navbar-default navbar-fixed-top">
-  <div class="container"> 
-    <!-- Brand and toggle get grouped for better mobile display -->
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
-      <a class="navbar-brand page-scroll" href="#page-top">Touché</a> </div>
-    
-    <!-- Collect the nav links, forms, and other content for toggling -->
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="#about" class="page-scroll">About</a></li>
-        <li><a href="#restaurant-menu" class="page-scroll">Menu</a></li>
-        <li><a href="#portfolio" class="page-scroll">Gallery</a></li>
-        <li><a href="#team" class="page-scroll">Chefs</a></li>
-        <li><a href="#call-reservation" class="page-scroll">Contact</a></li>
-      </ul>
-    </div>
-    <!-- /.navbar-collapse --> 
-  </div>
-</nav>
+    <nav id="menu" class="navbar navbar-default navbar-fixed-top">
+        <div class="container"> 
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+            <a class="navbar-brand page-scroll" href="#page-top">Raj Culture</a> </div>
+          
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="#about" class="page-scroll">About Rajasthan</a></li>
+              <li><a href="#destinations" class="page-scroll">Destinations</a></li>
+              <li><a href="#restaurant-menu" class="page-scroll">Royal Wedding</a></li>
+              <li><a href="#portfolio" class="page-scroll">Movie Shoot</a></li>
+              <li><a href="#team" class="page-scroll">Car Rental</a></li>
+              <li><a href="#call-reservation" class="page-scroll">Contact</a></li>
+            </ul>
+          </div>
+          <!-- /.navbar-collapse --> 
+        </div>
+      </nav>
 
-
-<!-- Portfolio Section -->
-<div id="portfolio">
-  <div class="section-title text-center center">
+<!-- Destinations Section -->
+<div id="team" class="text-center">
     <div class="overlay">
-      <h2>Gallery</h2>
-      <hr>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit duis sed.</p>
-    </div>
-  </div>
-  <div class="container">
-    <div class="row">
-      <div class="categories">
-        <ul class="cat">
-          <li>
-            <ol class="type">
-              <li><a href="#" data-filter="*" class="active">All</a></li>
-              <li><a href="#" data-filter=".breakfast">Breakfast</a></li>
-              <li><a href="#" data-filter=".lunch">Lunch</a></li>
-              <li><a href="#" data-filter=".dinner">Dinner</a></li>
-            </ol>
-          </li>
-        </ul>
-        <div class="clearfix"></div>
-      </div>
-    </div>
-    <div class="row">
-      <div class="portfolio-items">
-        <div class="col-sm-6 col-md-4 col-lg-4 breakfast">
-          <div class="portfolio-item">
-            <div class="hover-bg"> <a href="img/portfolio/01-large.jpg" title="Dish Name" data-lightbox-gallery="gallery1">
-              <div class="hover-text">
-                <h4>Dish Name</h4>
-              </div>
-              <img src="img/portfolio/01-small.jpg" class="img-responsive" alt="Project Title"> </a> </div>
-          </div>
+      <div class="container">
+        <div class="col-md-10 col-md-offset-1 section-title">
+          <h2> Destinations In Rajasthan </h2>
+          <hr>
         </div>
-        <div class="col-sm-6 col-md-4 col-lg-4 dinner">
-          <div class="portfolio-item">
-            <div class="hover-bg"> <a href="img/portfolio/02-large.jpg" title="Dish Name" data-lightbox-gallery="gallery1">
-              <div class="hover-text">
-                <h4>Dish Name</h4>
-              </div>
-              <img src="img/portfolio/02-small.jpg" class="img-responsive" alt="Project Title"> </a> </div>
+        <div id="row">             
+            
+         <div class="col-md-4">
+          <div class="card" style="background-color: white;">
+            <img src="http://www.transindiatravels.com/wp-content/uploads/udaipur2-1.jpg" alt="Avatar" style="width:100%">
+            <div>
+              <h4><b>Udaipur</b></h4>            
+              <p style="color: black;">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <a href="udaipur.html" type="button" class="btn btn-warning btn-block">Read More</a>
+            </div>
           </div>
-        </div>
-        <div class="col-sm-6 col-md-4 col-lg-4 breakfast">
-          <div class="portfolio-item">
-            <div class="hover-bg"> <a href="img/portfolio/03-large.jpg" title="Dish Name" data-lightbox-gallery="gallery1">
-              <div class="hover-text">
-                <h4>Dish Name</h4>
-              </div>
-              <img src="img/portfolio/03-small.jpg" class="img-responsive" alt="Project Title"> </a> </div>
-          </div>
-        </div>
-        <div class="col-sm-6 col-md-4 col-lg-4 breakfast">
-          <div class="portfolio-item">
-            <div class="hover-bg"> <a href="img/portfolio/04-large.jpg" title="Dish Name" data-lightbox-gallery="gallery1">
-              <div class="hover-text">
-                <h4>Dish Name</h4>
-              </div>
-              <img src="img/portfolio/04-small.jpg" class="img-responsive" alt="Project Title"> </a> </div>
-          </div>
-        </div>
-        <div class="col-sm-6 col-md-4 col-lg-4 dinner">
-          <div class="portfolio-item">
-            <div class="hover-bg"> <a href="img/portfolio/05-large.jpg" title="Dish Name" data-lightbox-gallery="gallery1">
-              <div class="hover-text">
-                <h4>Dish Name</h4>
-              </div>
-              <img src="img/portfolio/05-small.jpg" class="img-responsive" alt="Project Title"> </a> </div>
-          </div>
-        </div>
-        <div class="col-sm-6 col-md-4 col-lg-4 lunch">
-          <div class="portfolio-item">
-            <div class="hover-bg"> <a href="img/portfolio/06-large.jpg" title="Dish Name" data-lightbox-gallery="gallery1">
-              <div class="hover-text">
-                <h4>Dish Name</h4>
-              </div>
-              <img src="img/portfolio/06-small.jpg" class="img-responsive" alt="Project Title"> </a> </div>
-          </div>
-        </div>
-        <div class="col-sm-6 col-md-4 col-lg-4 lunch">
-          <div class="portfolio-item">
-            <div class="hover-bg"> <a href="img/portfolio/07-large.jpg" title="Dish Name" data-lightbox-gallery="gallery1">
-              <div class="hover-text">
-                <h4>Dish Name</h4>
-              </div>
-              <img src="img/portfolio/07-small.jpg" class="img-responsive" alt="Project Title"> </a> </div>
-          </div>
-        </div>
-        <div class="col-sm-6 col-md-4 col-lg-4 breakfast">
-          <div class="portfolio-item">
-            <div class="hover-bg"> <a href="img/portfolio/08-large.jpg" title="Dish Name" data-lightbox-gallery="gallery1">
-              <div class="hover-text">
-                <h4>Dish Name</h4>
-              </div>
-              <img src="img/portfolio/08-small.jpg" class="img-responsive" alt="Project Title"> </a> </div>
-          </div>
-        </div>
-        <div class="col-sm-6 col-md-4 col-lg-4 dinner">
-          <div class="portfolio-item">
-            <div class="hover-bg"> <a href="img/portfolio/09-large.jpg" title="Dish Name" data-lightbox-gallery="gallery1">
-              <div class="hover-text">
-                <h4>Dish Name</h4>
-              </div>
-              <img src="img/portfolio/09-small.jpg" class="img-responsive" alt="Project Title"> </a> </div>
-          </div>
-        </div>
-        <div class="col-sm-6 col-md-4 col-lg-4 lunch">
-          <div class="portfolio-item">
-            <div class="hover-bg"> <a href="img/portfolio/10-large.jpg" title="Dish Name" data-lightbox-gallery="gallery1">
-              <div class="hover-text">
-                <h4>Dish Name</h4>
-              </div>
-              <img src="img/portfolio/10-small.jpg" class="img-responsive" alt="Project Title"> </a> </div>
-          </div>
-        </div>
-        <div class="col-sm-6 col-md-4 col-lg-4 lunch">
-          <div class="portfolio-item">
-            <div class="hover-bg"> <a href="img/portfolio/11-large.jpg" title="Dish Name" data-lightbox-gallery="gallery1">
-              <div class="hover-text">
-                <h4>Dish Name</h4>
-              </div>
-              <img src="img/portfolio/11-small.jpg" class="img-responsive" alt="Project Title"> </a> </div>
-          </div>
-        </div>
-        <div class="col-sm-6 col-md-4 col-lg-4 breakfast">
-          <div class="portfolio-item">
-            <div class="hover-bg"> <a href="img/portfolio/12-large.jpg" title="Dish Name" data-lightbox-gallery="gallery1">
-              <div class="hover-text">
-                <h4>Dish Name</h4>
-              </div>
-              <img src="img/portfolio/12-small.jpg" class="img-responsive" alt="Project Title"> </a> </div>
-          </div>
+         </div>
+  
+  
+  
+  
+  
+  
         </div>
       </div>
     </div>
   </div>
-</div>
 
 <div id="footer">
   <div class="container text-center">
